@@ -22,7 +22,7 @@ function getChallenge(){
 	$.ajax({
 		data:data,
 		url:'https://develop.datacrm.la/datacrm/pruebatecnica/webservice.php?operation=getchallenge&username=prueba',
-		contentType:'text/html;charset=UTF-8',
+		contentType:'application/json',
 		beforeSend:function(){
 			open_loader();
 		},
